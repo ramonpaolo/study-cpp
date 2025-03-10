@@ -1,0 +1,42 @@
+# Compiler generated files
+*.o
+*.obj
+*.exe
+*.out
+
+# Build directories
+build/
+bin/
+Debug/
+Release/
+
+# IDE specific files
+.idea/
+.vscode/
+.ccls-cache/
+
+# CMake specific files
+CMakeFiles/
+cmake-build-debug/
+cmake-build-release/
+CMakeCache.txt
+
+# Editor backup files
+*~
+*.swp
+*.bak
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Dependency management files (if using any)
+vendor/
+
+# Other common files to ignore
+tags
+TAGS
+
+# Own specific ignores
+confidential/
