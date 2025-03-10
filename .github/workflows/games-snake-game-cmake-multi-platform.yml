@@ -45,7 +45,7 @@ jobs:
     - uses: libsdl-org/setup-sdl@main
       id: sdl
       with:
-        install-linux-dependencies: ${{ matrix.os == "ubuntu-latest" }}
+        install-linux-dependencies: matrix.os == "ubuntu-latest"
         version: 3-latest
         version-sdl-image: 3-latest
 
